@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #f0efef;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#input-field{
+  width: 70%;
+  height: 55px;
+  border: 1px solid transparent;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: plum;
+  cursor: pointer;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 1%;
+  padding-bottom: 5px;
+}
+
+img{
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+#centru2{
+  text-align: center;
+}
+#centru{
+  display: flex;
+  flex-direction: column;
+    max-width: 400px;
+    margin: 10px auto;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  user-select: none;
+}
+
+ul li {
+  background-color: #FFFDF8;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  user-select: none;
+  transition: 0.4s;
+}
+ul li:hover{
+  background-color: rgb(242, 226, 195);
+  transition: 0.4s;
+}
+
+.buttonn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: plum;
+  border: 1px solid transparent;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 70%;
+}
+
+.buttonn:hover,
+.buttonn:focus {
+  background-color: rgb(224, 121, 224);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.buttonn:hover {
+  transform: translateY(-1px);
+}
+
+.buttonn:active {
+  background-color: rgb(222, 177, 222);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
